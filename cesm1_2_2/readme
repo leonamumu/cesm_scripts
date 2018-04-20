@@ -1,0 +1,9 @@
+!-------------------------------------------------------------------------------------
+Create_SCRIPgrid_MappingFiles.sh: this code is used for create Scrip and mapping files
+CreateDomainFiles_Surfdata.sh: this code is used for create domain and surface files
+SinglePointRun.sh: this code is used for create, build and run single point case
+
+created by Xiaofeng Lin
+linxiaofeng.whu@gmail.com
+
+
