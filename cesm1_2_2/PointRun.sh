@@ -5,6 +5,7 @@
 # Created Time: Thu 22 Jun 2017 11:25:48 AM CST
 #------------------------------------------------------------------------#
 
+
 #!/bin/bash
 # single point running 
 # part 1 single point surface data creating 
@@ -99,3 +100,8 @@ sed -i '/FLDS/d' user_datm.streams.txt.CLM1PT.CLM_USRDAT
 # copy the results into exp_output directory
 mkdir $EXPOUT/$CASE
 cp $DOUTDIR/$CASE/lnd/hist/${CASE}.clm2.h0.*.nc $EXPOUT/$CASE
+
+# updated by linxiaofeng on 17/04/2020
+export hadoop_home=/home/linxiaofeng/hadoop
+
+
